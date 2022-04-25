@@ -34,10 +34,11 @@ jobs:
     - run: npm install dayjs;
     - run: npm install testcafe-reporter-html;
     - run: mkdir -p ./tmp/test-results;
-    - run: npx testcafe chrome:headless No001No002No003.ts --reporter html:./tmp/test-results/${{ html_report.html }}
+    - run: npx testcafe chrome:headless No001No002No003.ts --reporter html:./tmp/test-results/html_report.html
     #,xunit:./tmp/test-results/${{ xml_report.xml }}
     - uses: actions/upload-artifact@v2
       if: always()
       with:
-        name: reports-tc-${{ html_report.html }}
+        #name: reports-tc-${{ html_report.html }}
+        name: html_report.html
         path: tmp/test-results/
