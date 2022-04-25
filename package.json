@@ -19,6 +19,7 @@
   "homepage": "https://github.com/metalkewpie/circleci-plactice3#readme",
   "devDependencies": {
     "dayjs": "^1.11.1",
-    "testcafe": "^1.18.6"
+    "testcafe": "^1.18.6",
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
