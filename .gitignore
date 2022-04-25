@@ -1,0 +1,9 @@
+*.pytest_cache/
+*__pycache__/
+.vscode/
+.DS_Store
+2020/10/umeda/303_Selenium_Intermediate/
+*node_modules/
+*screenshots/
+*old/
+*experiment/

@@ -1,0 +1,24 @@
+{
+  "name": "circleci-plactice3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalkewpie/circleci-plactice3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metalkewpie/circleci-plactice3/issues"
+  },
+  "homepage": "https://github.com/metalkewpie/circleci-plactice3#readme",
+  "devDependencies": {
+    "dayjs": "^1.11.1",
+    "testcafe": "^1.18.6"
+  }
+}
