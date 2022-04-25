@@ -28,4 +28,8 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm test
+    - run: npm install testcafe;
+    - run: npm install dayjs;
+    - run: npm install testcafe-reporter-html;
+    - run: mkdir -p /tmp/test-results;
+    - run: npx testcafe chrome:headless No001No002No003.ts --reporter html:/tmp/test-results/html_report.html,xunit:/tmp/test-results/xml_report.xml
